@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+--green: rgb(5, 187, 5);
+--blue: rgb(56, 56, 255);
+--pink: rgb(252, 8, 179);
+--white: #fff;
+--cont-col: rgb(211, 212, 212);
+--yellow: rgb(248, 244, 7);
+--oran: rgb(252, 147, 10);
+--purp: rgb(131, 5, 131);
+
+}
+
+body{
+    background-color: var(--cont-col);
+}
+
+.container{
+    height: 500px;
+    width: 1200px;
+    background-color: var(--cont-col);
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    flex: 1;
+    background-color: var(--white);
+    border-radius: 7px;
+}
+
+.sec{
+    flex: 1;
+    background-color: var(--white);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+
+.thrd{
+    flex: 1;
+    background-color: var(--white);
+    border-radius: 7px;
+}
+
+.hd{
+    height: 100px;
+    border-top-left-radius: 7px;
+    z-index: 2;
+    position: relative;
+    border-top-right-radius: 7px;
+    color: var(--white);
+    padding-top: 30px;
+    padding-left: 100px;
+    background: linear-gradient(to right, var(--yellow) 4px,var(--green))
+}
+
+.hd2{
+    height: 100px;
+    border-top-left-radius: 7px;
+    z-index: 2;
+    position: relative;
+    border-top-right-radius: 7px;
+    color: var(--white);
+    padding-top: 30px;
+    padding-left: 70px;
+    background: linear-gradient(to right, var(--blue) 4px,var(--purp))
+}
+
+.hd3{
+    height: 100px;
+    border-top-left-radius: 7px;
+    z-index: 2;
+    position: relative;
+    border-top-right-radius: 7px;
+    color: var(--white);
+    padding-top: 30px;
+    padding-left: 70px;
+    background: linear-gradient(to right, var(--oran) 4px, var(--pink))
+}
+
+.tri{
+    font-size: 50px;
+    margin-left: 170px;
+    margin-top: -2px;
+    position: absolute;
+    background-color: var(--green);
+    background-image: linear-gradient(to left, var(--yellow) 4px, var(--green));
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.tri2{
+    font-size: 50px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: -2px;
+    background-color: var(--purp);
+    background-image: linear-gradient(to left, var(--blue) 4px, var(--purp));
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.tri3{
+    font-size: 50px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: -2px;
+    background-color: var(--pink);
+    background-image: linear-gradient(to left, var(--pink), var(--oran));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btnd1{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: rgb(109, 107, 107);
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+
+.mid{
+    z-index: 1;
+    margin-top: -30px;
+    background-color: red;
+    position: absolute;
+
+}
+
+.mid2{
+    margin-top: 30px;
+}
+.b-txt{
+    color: #ccc;
+    width: 30px;
+    margin-left: 170px;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+
+.b-txt2{
+    color: #ccc;
+    width: 30px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+
+.line{
+    width: 60%;
+    margin-left: 75px;
+    background-color: #ccc;
+    height: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.s-txt{
+    margin-bottom: 15px;
+}
+
+.tk{
+    color: var(--green);
+    margin-left: 60px;
+    font-size: x-large;
+}
+
+.tk2{
+    color: red;
+    margin-left: 60px;
+    font-size: x-large;
+}
+
+.btn{
+    padding: 15px 30px;
+    font-size: large;
+    border: none;
+    display: flex;
+    border-radius: 30px;
+    color: var(--white);
+    margin-top: 40px;
+    margin-left: 120px;
+    background: linear-gradient(to right, var(--yellow) 4px,var(--green))
+}
+
+.btn2{
+    padding: 15px 30px;
+    display: flex;
+    font-size: large;
+    border: none;
+    border-radius: 30px;
+    color: var(--white);
+    margin-top: 40px;
+    margin-left: 120px;
+    background: linear-gradient(to right, var(--blue) 4px,var(--purp))
+}
+
+.btn3{
+    padding: 15px 30px;
+    display: flex;
+    font-size: large;
+    border: none;
+    border-radius: 30px;
+    color: var(--white);
+    margin-top: 40px;
+    margin-left: 120px;
+    background: linear-gradient(to right, var(--oran) 4px, var(--pink))
+}
+
+.sup{
+    font-size: 50px;
+    
+}
+
+.main-t{
+    font-size: 56px;
+}
+
+.sub{
+    font-size: 30px;
+}
